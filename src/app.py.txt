@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello, World!"
+    return "Hello, World!"  # A simple test route that returns a message.
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True)  # Starts the app with debugging enabled.
